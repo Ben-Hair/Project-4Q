@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Length Conversion</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+<center>
+<div class="container Table">
+ 	<h1 class="text-center">Unit Converter</h1>
+ 	<hr>
+
+	<div class="Top">
+		<h3>Find Measurement:</h3>
+	</div>
+    
+	<div class="Middle">
+		<div>
+			<label>
+				Type Desired Value 
+			</label>
+			<input type="number" name="Input" placeholder="Millimeter">
+		</div>
+
+		<div>  
+			<h2>=</h2>  
+		</div>
+
+		<div>          
+			<label>
+				The Converted Value is 
+			</label>       
+			
+			<input type="number" name="Converted" disabled>         
+		</div>
+	</div>
+
+	<div class="Bottom"> 
+		<div>
+			<button class="btn" onclick="tocm()">Convert to Centimeters</button>
+		</div>
+
+		<div>
+			<button class="btn" onclick="tom()">Convert to Meters</button>
+		</div>
+
+		<div>
+			<button class="btn" onclick="tokm()">Convert to Kilometers</button>
+		</div>
+	</div>
+</div>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>
